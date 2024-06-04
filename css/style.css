@@ -5,8 +5,35 @@ body {
 }
 
 .description {
-  title-color: darkslategray;
-  text-color: white;
+  color: darkslategray;
+  color: white;
+  height: 15%;
+}
+
+.title {
+  font-size: 40px;
+  color: mediumseagreen;
+}
+
+.text {
+  width: 45%;
+  word-break: break-all;
+}
+
+.member {
+  height: 50%;
+  background-color: white;
+}
+
+.membername {
+  color: white;
+  font-size: 20px;
+}
+
+.gametitle {
+}
+
+.contact {
 }
 
 /** ヘッダー */

@@ -20,14 +20,23 @@ body {
   word-break: break-all;
 }
 
-.member {
+.member-container {
   height: 50%;
   background-color: white;
+  color: mediumseagreen;
 }
 
-.membername {
+.members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.member {
+  background-color: #0f1923;
   color: white;
-  font-size: 20px;
 }
 
 .gametitle {
